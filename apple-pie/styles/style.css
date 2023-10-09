@@ -22,3 +22,71 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+.img{
+  background-image: url(/lab-css-recipes-clone/apple-pie/images/apple-pie.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.description, p{
+  padding: 10px 60px;
+}
+.descriptionimg{
+  width: 300px;
+}
+
+.ingredients{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+h2{
+  padding: 10px 60px;
+  margin-left: 90px;
+}
+ul{
+  padding: 10px 60px;
+  list-style: none;
+  line-height: 30px;
+  list-style-type: "-";
+  margin-left: 90px;
+}
+
+.img1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ingredientsimg{
+  height: 59px;
+  display: flex;
+  justify-content: space-around;
+}
+.directions{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 20px;
+}
+hr{
+  width: 1200px;
+  height: 3px;
+  background-color: black;
+}
+
